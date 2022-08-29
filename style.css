@@ -1,0 +1,125 @@
+.main-container{
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+}
+.container{
+    /* width:1200px; */
+    padding:30px;
+    margin-top: 5px;
+    border-radius:5px;
+    background-color: #FFFFFF;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-left{
+    font-size:25px;
+    color:tomato;
+}
+.nav-right a{
+    text-decoration:none;
+    font-size:25px;
+    padding:5px;
+    margin-left: 5px;
+}
+.header{
+    height: 500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+    border-bottom:1px solid gray;
+   
+}
+.text-header{
+    padding:15px;
+    margin: 10px;
+}
+.text-header h1{
+    font-size:50px;
+    font-weight:bold;
+}
+.text-header p{
+    font-weight: 700;
+    font-size:20px;
+}
+.img-header{
+    padding:15px;
+    margin: 10px;
+
+}
+#btn{
+    color:white;
+    text-decoration: none;
+    font-size:25px;
+    font-weight:bold;
+    background-color:tomato;
+    border-radius:25px;
+    padding:10px;
+    margin-top: 10px;
+
+}
+.webside{
+    display:flex;
+    justify-content:center;
+    
+    gap: 30px;
+    padding:20px;
+    margin: 25px;
+    
+   
+}
+.webside-showing{
+    height:150px;
+    border-bottom: 1px solid gray;
+}
+.shoping-card{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    margin-top:20px;
+
+}
+.card{
+    width: 90%;
+    padding:10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    height: 100% !important;
+}
+.card img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
